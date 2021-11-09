@@ -3,7 +3,7 @@
  {
     "id" : 1,
     "questionType" : "true_false",
-    "questionText" : "Java is the second most popular language?",
+    "questionText" : "Python was a hobby project?",
     "correctAnswer" : "true",
     "options" : ["true", "false"],
     "feedback": ["Correct", "Incorrect"]
@@ -11,31 +11,31 @@
    {
     "id" : 2,
     "questionType" : "true_false",
-    "questionText" : "The original name for Java was Oak.",
-    "correctAnswer" : "true",
+    "questionText" : "Python was named after a group of snakes",
+    "correctAnswer" : "false",
     "options" : ["true", "false"],
     "feedback": ["Correct", "Incorrect"]
   },
    {
     "id" : 3,
     "questionType" : "true_false",
-    "questionText" : "Java is said to have been created on purpose.",
-    "correctAnswer" : "false",
+    "questionText" : "Python doesn't use braces to delimit code.",
+    "correctAnswer" : "true",
     "options" : ["true", "false"],
     "feedback": ["Correct", "Incorrect"]
   },
    {
     "id" : 4,
     "questionType" : "true_false",
-    "questionText" : "In Java the meaning  of the final keyword is final",
-    "correctAnswer" : "false",
+    "questionText" : "In Python functions can return multiple values as a tuple",
+    "correctAnswer" : "true",
     "options" : ["true", "false"],
     "feedback": ["Correct", "Incorrect"]
   },
    {
     "id" : 5,
     "questionType" : "true_false",
-    "questionText" : "Java is used by 95% of the enterprises as their primary language.",
+    "questionText" : "Python supports multiple assignments in one statement.",
     "correctAnswer" : "true",
     "options" : ["true", "false"],
     "feedback": ["Correct", "Incorrect"]
@@ -43,87 +43,87 @@
   {
     "id" : 6,
     "questionType" : "text_input",
-    "questionText" : "How many times does Java get downloaded in one year?",
-    "correctAnswer" : "One billion",
-    "answerFieldId" : "answer_to_question"
+    "questionText" : "What is the Boolean operator that returns true if either of its operands are true?",
+    "correctAnswer" : "or",
+    "answerFieldId" : "answer_to_question",
     "feedback": ["Correct", "Incorrect"]
   },
    {
     "id" : 7,
     "questionType" : "text_input",
-    "questionText" : "What was the name of the team of engineers who developed Java?",
-    "correctAnswer" : "Green team",
-    "answerFieldId" : "answer_to_question"
+    "questionText" : "What is the name of the British surreal comedy group after which Python was named.?",
+    "correctAnswer" : "Monty Python",
+    "answerFieldId" : "answer_to_question",
     "feedback": ["Correct", "Incorrect"]
   },
    {
     "id" : 8,
     "questionType" : "text_input",
-    "questionText" : "The process of assigning a value to a variable is___________",
-    "correctAnswer" : "initialization",
-    "answerFieldId" : "answer_to_question"
+    "questionText" : "What is the Boolean operator that returns true if its single operand is false?",
+    "correctAnswer" : "not",
+    "answerFieldId" : "answer_to_question",
     "feedback": ["Correct", "Incorrect"]
   },
    {
     "id" : 9,
     "questionType" : "text_input",
-    "questionText" : "A class that implements a table, which maps keys to values.",
-    "correctAnswer" : "Hash table",
-    "answerFieldId" : "answer_to_question"
+    "questionText" : "What is Python's Integrated Development Environment which is a program that lets you write code, test and debug, all in the one place?",
+    "correctAnswer" : "IDLE",
+    "answerFieldId" : "answer_to_question",
     "feedback": ["Correct", "Incorrect"]
   },
    {
     "id" : 10,
     "questionType" : "text_input",
-    "questionText" : "What year was Java initiated?",
-    "correctAnswer" : "1991",
-    "answerFieldId" : "answer_to_question"
+    "questionText" : "Which statement loads an existing Python module into the current program?",
+    "correctAnswer" : "import<module>",
+    "answerFieldId" : "answer_to_question",
     "feedback": ["Correct", "Incorrect"]
   },
   {
     "id" : 11,
     "questionType" : "multiple_choice",
-    "questionText" : "Which name is a actual type of Loop in Java?",
-    "options": ["for-loop", "switch-loop", "modal-loop", "script-loop"],
-    "correctAnswer" : "for-loop",
+    "questionText" : "The comparison operator for equality is?",
+    "options": ["==", "=", "equals", "true"],
+    "correctAnswer" : "==",
     "feedback": ["Correct", "Incorrect"]
   },
   {
     "id" : 12,
     "questionType" : "multiple_choice",
-    "questionText" : "What is considered a blueprint which describes methods, functions, and constructors Java?",
-    "options":  ["Function", "Project", "Class", "Object"],
-    "correctAnswer" : "Class",
+    "questionText" : "A function that takes user keyboard input and returns it to the program as a string is?",
+    "options":  ["enter()", "user()", "input()", "scanner()"],
+    "correctAnswer" : "input()",
     "feedback": ["Correct", "Incorrect"]
   },
   {
     "id" : 13,
     "questionType" : "multiple_choice",
-    "questionText" : "What is the definition of encapsulation?",
-    "options":  ["Wrapping data in a single unit", "Wrapping data into two units", "Wrapping data into four units", "Wrapping data into three units"],
-    "correctAnswer" : "Wrapping data in a single unit",
+    "questionText" : "Which represents a new line in a Python string?",
+    "options":  ["\t", "\n", "\new", "\l"],
+    "correctAnswer" : "\n",
     "feedback": ["Correct", "Incorrect"]
   },
   {
     "id" : 14,
     "questionType" : "multiple_choice",
-    "questionText" : "When classes have the same name but have many different functions it is called _________",
-    "options": ["Declaration", "Polymorphism", "Initialization", "Compiling"],
-    "correctAnswer" : "Polymorphism",
+    "questionText" : "Which is the correct file extension that denotes a python file",
+    "options": [".py", ".python", ".pypy", ".thon"],
+    "correctAnswer" : ".py",
     "feedback": ["Correct", "Incorrect"]
   },
    {
     "id" : 15,
     "questionType" : "multiple_choice",
-    "questionText" : "What is the name of transferring properties from one class to another?",
-    "options": ["Networking", "Sharing", "Data-Abstraction", "Inheritance"],
-    "correctAnswer" : "Inheritance",
+    "questionText" : "What is the assignment operator in python?",
+    "options": ["==", "=", "++", "+="],
+    "correctAnswer" : "=",
     "feedback": ["Correct", "Incorrect"]
   },
   {
     "id" : 16,
     "questionType" : "true_false",
-    "questionText" : "Java has a access modifier named Private.",
+    "questionText" : "!= means doesn't equal?",
     "correctAnswer" : "true",
     "options" : ["true", "false"],
     "feedback": ["Correct", "Incorrect"]
@@ -131,7 +131,7 @@
   {
     "id" : 17,
     "questionType" : "true_false",
-    "questionText" : "Java's power comes from the ability to compile code that can be read on any computer that has the Java Virtual Machine installed.",
+    "questionText" : "Modulo returns the remainder of the expression?",
     "correctAnswer" : "true",
     "options" : ["true", "false"],
     "feedback": ["Correct", "Incorrect"]
@@ -139,25 +139,25 @@
   {
     "id" : 18,
     "questionType" : "true_false",
-    "questionText" : "Properly written Java programs execute slowly and uses lots of memory.",
-    "correctAnswer" : "false",
+    "questionText" : "Dictionaries are used to store data values in key:value pairs?",
+    "correctAnswer" : "true",
     "options" : ["true", "false"],
     "feedback": ["Correct", "Incorrect"]
   },
    {
     "id" : 19,
     "questionType" : "text_input",
-    "questionText" : "________ is automatically handled by Java Virtual Machine, which means the programmer does not need to write code to manage memory.",
-    "correctAnswer" : "Memory Management",
-    "answerFieldId" : "answer_to_question"
+    "questionText" : " As mall anonymous function in Python is a _________",
+    "correctAnswer" : "lambda function",
+    "answerFieldId" : "answer_to_question",
     "feedback": ["Correct", "Incorrect"]
   },
    {
     "id" : 20,
     "questionType" : "text_input",
-    "questionText" : "A placeholder for a value which can be modified according to the needs of the program or the results of a calculation is called a ______",
-    "correctAnswer" : "variable",
-    "answerFieldId" : "answer_to_question"
+    "questionText" : " _______ is a package manager for Python packages, or modules.",
+    "correctAnswer" : "PIP",
+    "answerFieldId" : "answer_to_question",
     "feedback": ["Correct", "Incorrect"]
   }
   
